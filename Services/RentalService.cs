@@ -8,7 +8,7 @@ public class RentalService
     private ITax _Itax;
 
     public RentalService(double pricePerHour,double pricePerDay,ITax itax){
-        PricePerHour = pricePerDay;
+        PricePerHour = pricePerHour;
         PricePerDay = pricePerDay;
         _Itax = itax;
     }
